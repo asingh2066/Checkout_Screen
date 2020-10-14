@@ -194,8 +194,56 @@
                       </div>
                     </div>
                 </div>
-
+                {/*Payment infomation screen*/}
+                <h1>Payment</h1>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input"/>
+                  <label class="custom-control-label" for="customRadio1">Credit Card</label>
                 </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input"/>
+                  <label class="custom-control-label" for="customRadio2">Debit Card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input"/>
+                  <label class="custom-control-label" for="customRadio3">Paypal</label>
+                </div>
+                  
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationCustom01">Name on Card</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="e.g. Joe Smtih" required/>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationCustom05">Card Number</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Enter card" required/>
+                    <div class="invalid-feedback">
+                      Please provide a valid zip.
+                    </div>
+                  </div>
+                </div>
+                  
+                <div class="form-row">
+                  <div class="col-md-3 mb-3">
+                    <label for="validationCustom05">Expiration Date</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Enter expiration" required/>
+                    <div class="invalid-feedback">
+                      Please provide a valid expiration.
+                    </div>
+                  </div>
+                  <div class="col-md-2 mb-3">
+                    <label for="validationCustom05">CVV</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Enter CVV" required/>
+                    <div class="invalid-feedback">
+                      Please provide a valid CVV.
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Continue to Checkout</button>
               </form>
             </div>
             
