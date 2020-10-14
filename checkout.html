@@ -304,7 +304,7 @@
                 <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"/>
               </div>
               <div class="input-group-prepend">
-                <button class="btn btn-outline-secondary" type="button">Submit</button>
+                <button class="btn btn-outline-secondary" type="button">Button</button>
               </div>
             </div>
         </div>
@@ -327,10 +327,35 @@ function App(){
       rootElement
     )
     
-
+   /*function to make the shipping div disappear*/
+   
+    var divShipping = document.getElementById('Shipping');
+    var hideShipping = document.getElementById('shipping');
+    hideShipping.addEventListener('change', function(event){
+      if(hideShipping.checked){
+          divShipping.style.display = "none";}
+          else{divShipping.style.display = "initial";}
+    })
+    
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
 
 </script>
 
 </body>
 
 </html>
+
