@@ -117,83 +117,86 @@
                       Remember this information
                     </label>
                   </div>
-                {/*Creating a new div container for shipping information so I can later hide this div on a button press*/}
-                    <div className="Shipping" id="Shipping">
-                    <h1>Shipping Address</h1>
-                    <div class="form-row">
-                      <div class="col-md-4 mb-3"  class="col-auto">
-                        <label for="validationCustom01">First name</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required/>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-3"  class="col-auto">
-                        <label for="validationCustom02">Last name</label>
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required/>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-3" class="col-auto">
-                        <label for="validationCustomUsername">Username</label>
-                        <div class="input-group">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                          </div>
-                          <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required/>
-                          <div class="invalid-feedback">
-                            Please choose a username.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="col-md-10 mb-3">
-                          <label for="validationCustom03">Address</label>
-                          <input type="text" class="form-control" id="validationCustom03" placeholder="Address" required/>
-                          <div class="invalid-feedback">
-                            Please provide a valid address.
-                          </div>
-                      </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="col-md-6 mb-3" class="col-auto">
-                        <label for="validationCustom03">City</label>
-                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required/>
-                        <div class="invalid-feedback">
-                          Please provide a valid city.
-                        </div>
-                      </div>
-                      <div class="col-md-3 mb-3" class="col-auto">
-                        <label for="validationCustom04">State</label>
-                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required/>
-                        <div class="invalid-feedback">
-                          Please provide a valid state.
-                        </div>
-                      </div>
-                      <div class="form-group col-md-3">
-                        <label for="inputState">Country</label>
-                        <select id="inputState" class="form-control">
-                          <option>United States</option>
-                          <option>Canada</option>
-                        </select>
-                      </div>
-                      <div class="col-md-2 mb-3">
-                        <label for="validationCustom05">Zip</label>
-                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required/>
-                        <div class="invalid-feedback">
-                          Please provide a valid zip.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="col-md-10 mb-3">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required/>
-                      </div>
-                    </div>
                 </div>
+                  
+                 {/*Creating a new div container for shipping information so I can later hide this div on a button press*/}
+                <div className="Shipping" id="Shipping">
+                <h1>Shipping Address</h1>
+                <div class="form-row">
+                  <div class="col-md-4 mb-3"  class="col-auto">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required/>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3"  class="col-auto">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required/>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3" class="col-auto">
+                    <label for="validationCustomUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required/>
+                      <div class="invalid-feedback">
+                        Please choose a username.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-10 mb-3">
+                      <label for="validationCustom03">Address</label>
+                      <input type="text" class="form-control" id="validationCustom03" placeholder="Address" required/>
+                      <div class="invalid-feedback">
+                        Please provide a valid address.
+                      </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3" class="col-auto">
+                    <label for="validationCustom03">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required/>
+                    <div class="invalid-feedback">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3" class="col-auto">
+                    <label for="validationCustom04">State</label>
+                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required/>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputState">Country</label>
+                    <select id="inputState" class="form-control">
+                      <option>United States</option>
+                      <option>Canada</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2 mb-3">
+                    <label for="validationCustom05">Zip</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required/>
+                    <div class="invalid-feedback">
+                      Please provide a valid zip.
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-10 mb-3">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required/>
+                  </div>
+                </div>
+            </div>
+                  
                 {/*Payment infomation screen*/}
                 <h1>Payment</h1>
                 <div class="custom-control custom-radio">
@@ -242,11 +245,68 @@
                     </div>
                   </div>
                 </div>
-                </div>
+                  
                 <button class="btn btn-primary" type="submit">Continue to Checkout</button>
               </form>
             </div>
             
+                {/*Splitting the screen so that the shopping cart is on the right side of the screen*/}
+            <div className="ShoppingCart" style={{float : 'right', width : '40%', padding : '5%'}}>
+              <div class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Items in Your Cart
+                    <span class="badge badge-primary badge-pill">3</span>
+                </li>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">ASUS Gaming Desktop</h5>
+                    <small class="text-muted">$3,299.99</small>
+                  </div>
+                  <p class="mb-1">A GeForce RTX™ 2080 Ti GPU delivers high frame rates for smoother action, while an Intel Core i9 CPU speeds up intensive workloads like streaming, video editing, and 3D rendering.</p>
+                  <small class="text-muted">Shipping and Handling not included</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Sony Playstation 5</h5>
+                    <small class="text-muted">$499</small>
+                  </div>
+                  <p class="mb-1">Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio*, and an all-new generation of incredible PlayStation® games.</p>
+                  <small class="text-muted">Games not inlcuded</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Macbook Pro 13" </h5>
+                    <small class="text-muted">$1,399.00</small>
+                  </div>
+                  <p class="mb-1">1.4GHz quad-core 8th-generation Intel Core i5 processor
+                  Turbo Boost up to 3.9GHz
+                  Intel Iris Plus Graphics 645
+                  8GB 2133MHz LPDDR3 memory
+                  512GB SSD storage</p>
+                  <small class="text-muted">Laptop not assembled</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Promo Code </h5>
+                    <small class="text-muted">15% off</small>
+                  </div>
+                  <p class="mb-1">Promo code used: ThisYearIsADub</p>
+                </a>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Total Price
+                    <span class="badge badge-primary badge-pill">$4,418.29</span>
+                </li>
+              </div>
+              <div class="input-group mb-10">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Promo Code</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"/>
+              </div>
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary" type="button">Submit</button>
+              </div>
+            </div>
         </div>
       );
       }
